@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YourHealth;)</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div class="navbar bg-primary ">
+      <div class="container flex">
+        <h1 class="logo">Your Health</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#calculator">Calculator</a></li>
+            <li><a href="#advices">Advices</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- Showcase -->
+    <section id="home" class="showcase">
+      <div class="container grid">
+        <div class="showcase-text">
+          <h1>Ideal Weight Calculator</h1>
+          <p>
+            Calculat your wight base on your hight,gender and age with our free
+            online calculator
+          </p>
+          <a href="#advice" class="btn btn-dark">Read More</a>
+        </div>
+        <div class="showcase-form card">
+          <h1>Subscribe</h1>
+          <form>
+            <div class="form-control">
+              <input type="text" name="name" placeholder="Name" required />
+            </div>
+            <div class="form-control">
+              <input type="email" name="email" placeholder="Email" required />
+            </div>
+            <input type="submit" value="Send" class="btn btn-dark" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Calculator -->
+    <section class="calculator">
+      <div class="container" id="calculator">
+        <h3 class="calculator-heading text-center">
+          Welcome to deal Weight Calculator
+        </h3>
+        <section id="boxes">
+          <div class="container">
+            <div class="box">
+              <img
+                src="https://media.istockphoto.com/id/1407839209/vector/fitness-muscular-man-character-in-flat-design.jpg?s=612x612&w=0&k=20&c=QcpajuyBTAjQtdr7o78EUmoVuea2pSor3TZQ6iiWZGc="
+                alt="html icon"
+              />
+              The Ideal Weight Calculator computes ideal body weight (IBW)
+              ranges based on height, gender, and age. The idea of finding the
+              IBW using a formula has been sought after by many experts for a
+              long time. Currently, there persist several popular formulas, and
+              our Ideal Weight Calculator provides their results for
+              side-to-side comparisons.
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section class="calculator bg-primary my-2 py-2">
+      <div class="container calculator-form text-center">
+        <form>
+          <div class="calculator-container">
+            <p class="age-checker text-secondary"></p>
+            <input
+              type="text"
+              class="age"
+              placeholder="Enter your age "
+              required
+            />
+          </div>
+
+          <div>
+            <p class="height-checker text-secondary"></p>
+            <input
+              type="text"
+              class="height"
+              placeholder="Enter your height in cm"
+              required
+            />
+          </div>
+          <div>
+            <input type="radio" class="gender" name="gender" value="male" />
+            <label for="male">Male</label>
+
+            <input type="radio" class="gender" name="gender" value="female" />
+            <label for="female">Female</label>
+          </div>
+          <button id="calculat-button" class="btn btn-dark">Calculate</button>
+        </form>
+
+        <h3 class="result text-center my-1"></h3>
+      </div>
+    </section>
+
+    <section id="advices" class="advice-main my-4">
+      <h1 class="text-center text-bold">Some Advice for perfect weight</h1>
+      <div class="container grid grid-3">
+        <div class="card flex">
+
+          <p>
+            Do not skip breakfast. Skipping breakfast will not help you lose
+            weight. You could miss out on essential nutrients and you may end up
+            snacking more throughout the day because you feel hungry.
+          </p>
+        </div>
+        <div class="card flex">
+  
+          <p>
+            Eat regular meals. Eating at regular times during the day helps burn
+            calories at a faster rate. It also reduces the temptation to snack
+            on foods high in fat and sugar.
+          </p>
+        </div>
+        <div class="card flex">
+          <p>
+            Fruit and veg are low in calories and fat, and high in fibre – 3
+            essential ingredients for successful weight loss. They also contain
+            plenty of vitamins and minerals.
+          </p>
+        </div>
+        <div class="card flex">
+          <p>
+            Being active is key to losing weight and keeping it off. As well as
+            providing lots of health benefits, exercise can help burn off the
+            excess calories you cannot lose through diet alone. Find an activity
+            you enjoy and are able to fit into your routine.
+          </p>
+        </div>
+        <div class="card flex">
+          <i class="fas fa-dollar-sign fa-3x"></i>
+          <p>
+            People sometimes confuse thirst with hunger. You can end up
+            consuming extra calories when a glass of water is really what you
+            need.
+          </p>
+        </div>
+        <div class="card flex">
+          <i class="fas fa-plus fa-3x"></i>
+          <p>
+            Foods containing lots of fibre can help keep you feeling full, which
+            is perfect for losing weight. Fibre is only found in food from
+            plants, such as fruit and veg, oats, wholegrain bread, brown rice
+            and pasta, and beans, peas and lentils.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer bg-primary py-5">
+      <div class="container grid grid-3">
+        <div>
+          <h1>YourHealth</h1>
+          <p>Copyright &copy; 2023</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#calculator">Calculator</a></li>
+            <li><a href="#advices">Advices</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div id="contact-us">
+          <a href="#"><i class="fab fa-facebook fa-2x">www.facebook.com</i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x">www.instgram.com</i></a>
+          <a href="#"><i class="fab fa-email fa-2x">abc@YourHealth.com</i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
